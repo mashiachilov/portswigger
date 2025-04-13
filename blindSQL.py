@@ -1,3 +1,4 @@
+#Lab: Blind SQL injection with conditional responses
 import requests
 import string
 import time
